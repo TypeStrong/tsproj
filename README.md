@@ -1,6 +1,10 @@
 # tsproj
 [![Build Status](https://secure.travis-ci.org/TypeStrong/tsproj.svg?branch=master)](http://travis-ci.org/TypeStrong/tsproj)
 
+# Update: Deprecated (sadly). 
+From now on please use : https://github.com/TypeStrong/tsconfig
+
+# About 
 A specification for a file format + Parser Implementation for specifying TypeScript projects
 
 # Specification
