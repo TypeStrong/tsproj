@@ -150,7 +150,7 @@ export function createProjectsRootSync(pathOrSrcFile: string, projectName: strin
     fs.writeFileSync(projectFilePath, encoded);
 }
 
-/** Run with default if no val given or run with val */
+/** if ( no val given && default given then run with default ) else ( run with val ) */
 function runWithDefault<T>(run: (val: T) => any, val: T, def?: T) {
     // no val
     if (val == void 0) {
